@@ -11,7 +11,7 @@ export const PlaylistSongsComponent = ({
   songs: allSongs,
   updatePlaylist,
 }) => {
-  const { id, name, songs } = playlist;
+  const { songs } = playlist;
   const [openModal, setOpenModal] = useState(false);
   const [addedSongs, setAddedSongs] = useState([]);
   const [shuffledSongs, setShuffledSongs] = useState([]);

@@ -2,7 +2,7 @@ import { Button } from "antd";
 import "./SongListItemComponent.css";
 
 export const SongListItemComponent = ({ song, actions = [] }) => {
-  const { albumId, id, title, url, thumbnailUrl } = song;
+  const { albumId, id, title, thumbnailUrl } = song;
 
   const albums = JSON.parse(localStorage.getItem("albums"));
 

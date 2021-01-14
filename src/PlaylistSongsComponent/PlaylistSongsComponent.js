@@ -18,7 +18,7 @@ export const PlaylistSongsComponent = ({
 
   useEffect(() => {
     setShuffledSongs(songs);
-  }, []);
+  }, [songs]);
 
   const shuffleSongs = () => {
     let tempSongs = [...shuffledSongs];

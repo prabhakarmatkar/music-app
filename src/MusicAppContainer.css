@@ -1,0 +1,9 @@
+.music-app-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.mode-content {
+  height: 90vh;
+}

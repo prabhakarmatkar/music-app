@@ -1,0 +1,15 @@
+.playlist-item-container {
+  display: flex;
+  margin: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  box-shadow: 2px 2px grey;
+  justify-content: space-evenly;
+}
+
+/* .song-details-container {
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+} */

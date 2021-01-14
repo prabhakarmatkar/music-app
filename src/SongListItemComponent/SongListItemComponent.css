@@ -1,0 +1,27 @@
+.song-list-item-container {
+  display: flex;
+  margin: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  box-shadow: 2px 2px grey;
+  justify-content: space-between;
+}
+
+.song-details-wrapper {
+  display: flex;
+  min-width: 60%;
+}
+
+.song-details-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.song-play-time-container,
+.song-actions-container {
+  align-self: center;
+}
